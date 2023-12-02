@@ -1,4 +1,3 @@
-import React from 'react';
 
 // Define the interface for the props
 interface AboutUsCardProps {
