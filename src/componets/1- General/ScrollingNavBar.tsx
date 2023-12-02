@@ -44,7 +44,7 @@ export function ScrollingNavBar({ isHomePage }: { isHomePage: boolean }) {
     >
       <Navbar.Brand className="div-busines">
         <a href={"/"} className="div-busines">
-          <img src="/imgs/logo 1.png" alt="logo.png" className="navbar-logo" />
+          <img src="imgs/logo 1.png" alt="logo.png" className="navbar-logo" />
           <h4 className="busines-name">Vuelos Caribe</h4>
         </a>
       </Navbar.Brand>
