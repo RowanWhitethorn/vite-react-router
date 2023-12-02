@@ -9,7 +9,7 @@ type StoreItemProps = {
   about: string;
 };
 
-export function VCard({ id, name, price, imgUrl, about }: StoreItemProps) {
+export function VCard({ name, price, imgUrl, about }: StoreItemProps) {
   const [isImageOpen, setIsImageOpen] = useState(false);
 
   const handleImageClick = () => {

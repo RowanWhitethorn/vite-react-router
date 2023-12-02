@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-type FormatFunction = (segment: string) => React.ReactNode;
+//type FormatFunction = (segment: string) => React.ReactNode;
 ////// this is a function /////////
   function splitString(plainText: string): string[] {
     // Define a regular expression to match the delimiters (`,`, `.`, `;`, `:`) while keeping them in the segments.
@@ -32,7 +32,7 @@ export function formatTextService(plainText: string): React.ReactNode {
 
   //create the array who store the final result, an array of react nodes
   const formattedText: React.ReactNode[] = [];
-  const cleaner = /([^;.:,])/g; 
+  //const cleaner = /([^;.:,])/g; 
   let segments = splitString(plainText); // Make segments mutable
 
   //create the variables who regex the texts segments who match with
