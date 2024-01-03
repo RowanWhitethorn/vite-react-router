@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client'
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 //import FAQPage from './pages/FAQPage.tsx'
-import HomePage from './pages/!HomePage.tsx'
+import HomePage from './pages/HomePage.tsx'
 import FAQPage from './pages/FAQPage.tsx';
 
 
